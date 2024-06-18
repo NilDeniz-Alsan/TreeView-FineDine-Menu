@@ -1,0 +1,42 @@
+D:\Yeni klasör\UseTreeView\bin\Debug\UseTreeView.exe
+D:\Yeni klasör\UseTreeView\bin\Debug\UseTreeView.pdb
+D:\Yeni klasör\UseTreeView\obj\Debug\UseTreeView.csproj.AssemblyReference.cache
+D:\Yeni klasör\UseTreeView\obj\Debug\Window1.baml
+D:\Yeni klasör\UseTreeView\obj\Debug\Window1.g.cs
+D:\Yeni klasör\UseTreeView\obj\Debug\App.g.cs
+D:\Yeni klasör\UseTreeView\obj\Debug\UseTreeView_MarkupCompile.cache
+D:\Yeni klasör\UseTreeView\obj\Debug\UseTreeView.g.resources
+D:\Yeni klasör\UseTreeView\obj\Debug\UseTreeView.csproj.CoreCompileInputs.cache
+D:\Yeni klasör\UseTreeView\obj\Debug\UseTreeView.exe
+D:\Yeni klasör\UseTreeView\obj\Debug\UseTreeView.pdb
+D:\Yeni klasör\UseTreeeView\obj\Debug\UseTreeView.csproj.AssemblyReference.cache
+D:\Yeni klasör\UseTreeeView\obj\Debug\App.g.cs
+D:\Yeni klasör\UseTreeeView\obj\Debug\UseTreeView_MarkupCompile.cache
+D:\Yeni klasör\UseTreeeView\obj\Debug\UseTreeView.exe
+D:\Yeni klasör\UseTreeeView\obj\Debug\UseTreeView.pdb
+D:\Yeni klasör\UseTreeeView\obj\Debug\Window1.baml
+D:\Yeni klasör\UseTreeeView\obj\Debug\Window1.g.cs
+D:\Yeni klasör\UseTreeeView\obj\Debug\UseTreeView.g.resources
+D:\Yeni klasör\UseTreeeView\obj\Debug\UseTreeView.csproj.CoreCompileInputs.cache
+C:\Users\KEREM\Desktop\UseTreeeView\obj\Debug\UseTreeView.csproj.AssemblyReference.cache
+C:\Users\KEREM\Desktop\UseTreeeView\obj\Debug\Window1.baml
+C:\Users\KEREM\Desktop\UseTreeeView\obj\Debug\Window1.g.cs
+C:\Users\KEREM\Desktop\UseTreeeView\obj\Debug\App.g.cs
+C:\Users\KEREM\Desktop\UseTreeeView\obj\Debug\UseTreeView_MarkupCompile.cache
+C:\Users\KEREM\Desktop\UseTreeeView\obj\Debug\UseTreeView.g.resources
+C:\Users\KEREM\Desktop\UseTreeeView\obj\Debug\UseTreeView.csproj.CoreCompileInputs.cache
+C:\Users\KEREM\Desktop\UseTreeeView\obj\Debug\UseTreeView.exe
+C:\Users\KEREM\Desktop\UseTreeeView\obj\Debug\UseTreeView.pdb
+D:\Yeni klasör\UseTreeeView\bin\Debug\UseTreeView.exe
+D:\Yeni klasör\UseTreeeView\bin\Debug\UseTreeView.pdb
+D:\UseTreeView\bin\Debug\UseTreeView.exe
+D:\UseTreeView\bin\Debug\UseTreeView.pdb
+D:\UseTreeView\obj\Debug\UseTreeView.csproj.AssemblyReference.cache
+D:\UseTreeView\obj\Debug\Window1.baml
+D:\UseTreeView\obj\Debug\Window1.g.cs
+D:\UseTreeView\obj\Debug\App.g.cs
+D:\UseTreeView\obj\Debug\UseTreeView_MarkupCompile.cache
+D:\UseTreeView\obj\Debug\UseTreeView.g.resources
+D:\UseTreeView\obj\Debug\UseTreeView.csproj.CoreCompileInputs.cache
+D:\UseTreeView\obj\Debug\UseTreeView.exe
+D:\UseTreeView\obj\Debug\UseTreeView.pdb

@@ -1,0 +1,234 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="UseTreeView.Window1"
+	x:Name="Window"
+	Title="Menu"
+	Width="450" Height="1000" FontSize="20" Background="#FFFAEED1" FontFamily="Yu Gothic UI Light">
+    <Grid x:Name="LayoutRoot">
+        <TreeView>
+            <TreeView.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FAEED1" Offset="1"/>
+                </RadialGradientBrush>
+            </TreeView.Background>
+            <Label FontSize="35" FontWeight="Normal" VerticalAlignment="Center" Width="402" HorizontalContentAlignment="Center">WELCOME</Label>
+            <StackPanel> 
+            
+                <TreeViewItem Header="Entree">
+
+                    <TreeViewItem Header="Vegan" >
+
+                        <WrapPanel>
+                            <TreeViewItem Header="Fava Beans~120₺"/>
+                            <Image Height="20"  Source="D:\UseTreeView\src\f_6f0db_fava.jpg" Name="Fava" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" Width="284" RenderTransformOrigin="0.5,0.5">
+                                <Image.RenderTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform/>
+                                        <SkewTransform AngleY="0.109"/>
+                                        <RotateTransform/>
+                                        <TranslateTransform Y="0.265"/>
+                                    </TransformGroup>
+                                </Image.RenderTransform>
+                            </Image>
+
+                        </WrapPanel>
+
+                        <WrapPanel>
+                            <TreeViewItem Header="Hummus~110₺"/>
+                            <Image Height="20"  Source="D:\UseTreeView\src\f_4ff6c_humus.jpg" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" Width="323"/>
+                        </WrapPanel>
+
+                    </TreeViewItem>
+
+                    <TreeViewItem Header="Non-Vegan" >
+
+                        <WrapPanel>
+                            <TreeViewItem Header="Octopus Salad~415₺"/>
+                            <Image Height="20"  Source="D:\UseTreeView\src\f_987dc_ahtapot_salatasi.jpg" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" Width="227"/>
+                        </WrapPanel>
+            
+                        <WrapPanel>
+                            <TreeViewItem Header="Antichoke Heart Antipasti~280₺"/>
+                            <Image Height="20"  Source="D:\UseTreeView\src\Artichoke Hearts Salad.jpg" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" Width="40"/>
+                        </WrapPanel>
+
+                    </TreeViewItem>
+                </TreeViewItem>
+            
+                <TreeViewItem Header="Salads">
+
+                    <TreeViewItem Header="Vegan">
+
+                        <WrapPanel>
+                            <TreeViewItem Header="Beetroot Patties Salad~320₺"/>
+                            <Image Height="20"  Source="D:\UseTreeView\src\Beetroot Patties Salad.jpg" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" Width="103"/>
+                        </WrapPanel>
+
+                        <WrapPanel>
+                            <TreeViewItem Header="Artichoke Hearts Salad~350₺"/>
+                            <Image Height="20"  Source="D:\UseTreeView\src\Artichoke Hearts Salad.jpg" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" Width="90"/>
+                        </WrapPanel>
+
+                        <WrapPanel>
+                            <TreeViewItem Header="Beetroot Carpaccio~370₺"/>
+                            <Image Height="20"  Source="D:\UseTreeView\src\f_003aa_avokadolu_pancar_carpaccio.jpg" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" Width="147"/>
+                        </WrapPanel>
+
+                    </TreeViewItem>
+                    <TreeViewItem Header="Non-Vegan">
+
+                        <WrapPanel>
+                            <TreeViewItem Header="Sheppard's Salad~250₺"/>
+                            <Image Height="20"  Source="D:\UseTreeView\src\f_d5b77sheppardssalad.jpg" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" Width="183"/>
+                        </WrapPanel>
+
+                        <WrapPanel>
+                            <TreeViewItem Header="Grilled Chicken Salad~470₺"/>
+                            <Image Height="20"  Source="D:\UseTreeView\src\f_6b766Grilled Chicken Salad.jpg" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" Width="118"/>
+                        </WrapPanel>
+
+                        <WrapPanel>
+                            <TreeViewItem Header="Grilled Salmon Salad~410₺"/>
+                            <Image Height="20"  Source="D:\UseTreeView\src\f_697b3Grilled salmonSalad.jpg" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" Width="131"/>
+                        </WrapPanel>
+
+                    </TreeViewItem>
+                </TreeViewItem>
+                <TreeViewItem Header="Soups">
+
+                    <TreeViewItem Header="Vegan">
+
+                        <WrapPanel>
+                            <TreeViewItem Header="Lentil Soup with Orange~250₺"/>
+                            <Image Height="20"  Source="D:\UseTreeView\src\Lentil Soup with Orange.jpg" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" Width="68"/>
+                        </WrapPanel>
+
+                    </TreeViewItem>
+                    <TreeViewItem Header="Non-Vegan">
+
+                        <WrapPanel>
+                            <TreeViewItem Header="Pumpkin Soup~280₺"/>
+                            <Image Height="20"  Source="D:\UseTreeView\src\f_eb827_balkabagi_corbasi2.jpg" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" Width="227"/>
+                        </WrapPanel>
+
+                        <WrapPanel>
+                            <TreeViewItem Header="Seafood Soup~310₺"/>
+                            <Image Height="20"  Source="D:\UseTreeView\src\Seafood Soup.jpg" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" Width="241"/>
+                        </WrapPanel>
+
+                    </TreeViewItem>
+                </TreeViewItem>
+                <TreeViewItem Header="Main Courses">
+
+                    <TreeViewItem Header="Vegan" >
+
+                        <WrapPanel>
+                            <TreeViewItem Header="Vegan Burger~365₺"/>
+                            <Image Height="20"  Source="D:\UseTreeView\src\f_59de0_vegan_burger.jpg" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" Width="241"/>
+                        </WrapPanel>
+
+                        <WrapPanel>
+                            <TreeViewItem Header="Grilled Seasonal Veggies~280₺"/>
+                            <Image Height="20"  Source="D:\UseTreeView\src\f_1e7af_sebze_izgara.jpg" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" Width="63"/>
+                        </WrapPanel>
+
+                        <WrapPanel>
+                            <TreeViewItem Header="Vegan Schnitzel~340₺"/>
+                            <Image Height="20"  Source="D:\UseTreeView\src\f_4abde_img_2633.jpg" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" Width="204"/>
+                        </WrapPanel>
+
+                    </TreeViewItem>
+                    <TreeViewItem Header="Non-Vegan">
+
+                        <WrapPanel>
+                            <TreeViewItem Header="Steak Filled Cafe de Paris~520₺"/>
+                            <Image Height="20"  Source="D:\UseTreeView\src\cafedeparis.jpg" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" Width="53"/>
+                        </WrapPanel>
+
+                        <WrapPanel>
+                            <TreeViewItem Header="Grilled Lamb Fillet~490₺"/>
+                            <Image Height="20"  Source="D:\UseTreeView\src\f_aaa41_kuzu_pirzola.jpg" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" Width="170"/>
+                        </WrapPanel>
+
+                        <WrapPanel>
+                            <TreeViewItem Header="Grilled Salmon~500₺"/>
+                            <Image Height="20"  Source="D:\UseTreeView\src\f_1a63b_izgara_somon.jpg" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" Width="226"/>
+                        </WrapPanel>
+
+                    </TreeViewItem>
+                </TreeViewItem>
+                <TreeViewItem Header="Desserts">
+
+                    <WrapPanel>
+                        <TreeViewItem Header="Frozen Cheesecake~340₺"/>
+                        <Image Height="20"  Source="D:\UseTreeView\src\f_a654d_frozen_cheesecake.jpg" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" Width="185" RenderTransformOrigin="0.5,0.5">
+                        </Image>
+                    </WrapPanel>
+
+                    <WrapPanel>
+                        <TreeViewItem Header="Crispy Pumpkin~355₺"/>
+                        <Image Height="20"  Source="D:\UseTreeView\src\f_5312d_citir_kabak_tatlisi.jpg" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" Width="249"/>
+                    </WrapPanel>
+
+                    <WrapPanel>
+                        <TreeViewItem Header="Milk Custard Strawberry~365₺"/>
+                        <Image Height="20"  Source="D:\UseTreeView\src\f_80d3f_keskul.jpg" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" Width="112"/>
+                    </WrapPanel>
+
+                    <WrapPanel>
+                        <TreeViewItem Header="Chocolate Cake~320₺"/>
+                        <Image Height="20"  Source="D:\UseTreeView\src\f_50d61_cikolatali_islak_kek.jpg" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" Width="247"/>
+                    </WrapPanel>
+
+                </TreeViewItem>
+                <TreeViewItem Header="Drinks">
+
+                    <WrapPanel>
+                        <TreeViewItem Header="Water~25₺"/>
+                        <Image Height="20"  Source="D:\UseTreeView\src\su.jpg" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" Width="427"/>
+                    </WrapPanel>
+
+                    <WrapPanel>
+                        <TreeViewItem Header="Coca Cola~55₺"/>
+                        <Image Height="20"  Source="D:\UseTreeView\src\cola.jpg" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" Width="352"/>
+                    </WrapPanel>
+
+                    <WrapPanel>
+                        <TreeViewItem Header="Sprite~55₺"/>
+                        <Image Height="20"  Source="D:\UseTreeView\src\sprite.jpg" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" Width="430"/>
+                    </WrapPanel>
+
+                    <WrapPanel>
+                        <TreeViewItem Header="Ice Tea~55₺"/>
+                        <Image Height="20"  Source="D:\UseTreeView\src\icetea.jpg" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" Width="412" RenderTransformOrigin="0.5,0.5">
+                            <Image.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                    <SkewTransform AngleY="-0.168"/>
+                                    <RotateTransform/>
+                                    <TranslateTransform Y="-0.597"/>
+                                </TransformGroup>
+                            </Image.RenderTransform>
+                        </Image>
+                    </WrapPanel>
+
+                    <WrapPanel>
+                        <TreeViewItem Header="Lemonade~70₺"/>
+                        <Image Height="20"  Source="D:\UseTreeView\src\lemonade.jpg" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" Width="346"/>
+                    </WrapPanel>
+
+                    <WrapPanel>
+                        <TreeViewItem Header="Tea~30₺"/>
+                        <Image Height="20"  Source="D:\UseTreeView\src\tea.jpg" MouseEnter="img_MouseEnter" MouseLeave="img_MouseLeave" Width="466"/>
+                    </WrapPanel>
+
+                </TreeViewItem>
+                <Popup Name="popFullScale" Placement="Right" HorizontalOffset="5" VerticalOffset="5">
+                    <Image Name="imgFullScale" Stretch="None"/>
+                </Popup>
+            </StackPanel>
+    </TreeView>
+        
+    </Grid>
+</Window>
